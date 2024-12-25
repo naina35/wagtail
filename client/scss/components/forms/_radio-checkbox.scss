@@ -41,6 +41,7 @@ input[type='radio'] {
   display: inline-block;
   border-radius: theme('borderRadius.full');
   @include radio-checkbox-base();
+  
   &:checked::before {
     mask-image: url('#{$images-root}icons/radio-full.svg');
   }

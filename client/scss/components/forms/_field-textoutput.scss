@@ -15,6 +15,7 @@
   overflow: hidden;
   overflow-wrap: break-word;
   @include input-base();
+  
   &,
   &:hover {
     border-color: theme('colors.border-field-inactive');

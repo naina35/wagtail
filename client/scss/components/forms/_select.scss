@@ -29,6 +29,7 @@ $chevron-offset: math.div($select-size - $chevron-size, 2);
       $chevron-size $chevron-size;
     background-repeat: no-repeat;
   }
+  
   [dir='rtl'] & {
     background-position-x: $chevron-offset,
       calc($chevron-offset + $chevron-size);
